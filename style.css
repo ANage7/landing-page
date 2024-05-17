@@ -1,0 +1,150 @@
+/*general*/
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+button {
+    color:whitesmoke;
+    background-color: #3282f6;
+    width: 8em;
+    height: 3em;
+    border-radius: 1em;
+}
+/*head*/
+.head{
+    background-color: #1f2937;
+    color:whitesmoke;
+   
+}
+/*Navigation bar*/
+.nav-bar {
+    display: flex;
+    padding:1em;
+
+
+}
+.nav-bar h1{
+    flex-grow: 6;
+    padding: 1em 0em 1em 2em;
+}
+.nav-bar ul{
+    padding-right: 5em;
+    color: whitesmoke;
+   
+}
+a:visited{
+    color:beige;
+    text-decoration: none; 
+}
+a:hover{
+    color: red;
+}
+.nav-bar li{
+    display: inline-flex;
+    flex-grow: 3;
+    padding: 1em;
+    text-decoration: none;
+    
+}
+.info {
+    display: flex;
+    padding: 2em 3em;
+    flex-direction: row;
+}
+.info > .note {
+    flex-direction: column;
+    flex: 2;
+    padding: 2em;
+}
+.info > img{
+    flex:2;
+    padding: 2em;
+}
+
+.info > h1{
+    flex:1;
+    margin: 5em;
+    
+}
+.info >p{
+    flex:2;
+    margin: 2em;
+}
+.info > button{
+    flex: 1;
+    margin 1em;
+    
+
+}
+/*departtments*/
+.department{
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+}
+.departments > h2{
+    margin-top: 3%;
+    text-align: center;
+} 
+.dept{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+#emergency{
+    flex: 1;
+}
+#surgery{
+    flex:1;
+}
+#dental{
+    flex:1;
+}
+#lab{
+    flex:1;
+}
+/*quote*/
+.quote{
+    background-color:#e5e7eb ;
+    padding: 3% 12%;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.quote> h3{
+    text-align: right;
+    font-style: normal;
+}
+/*call to action*/
+.action{
+    display: flex;
+    flex-direction: row;
+    background-color:#3882f6 ;
+    margin: 2em 5em;
+}
+.action > .note{
+    flex-direction: column;
+    flex: 2;
+    padding: 2em;
+   
+}
+.action > button{
+    flex: 1;
+    margin: auto;
+    margin-right: 3em;
+    border-color: whitesmoke;
+    
+
+}
+
+
+/*foot*/
+.foot{
+    background-color: #1f2937;
+    color:whitesmoke;
+    text-align: center;
+    padding: 2rem 3rem ;
+    
+}
